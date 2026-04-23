@@ -1,0 +1,81 @@
+@page "/"
+@rendermode InteractiveServer
+@inherits CardapioBase
+
+<PageTitle>Cardápio — Good Hamburger</PageTitle>
+
+<h2 style="margin-bottom:1.5rem">Cardápio</h2>
+
+@if (Carregando)
+{
+    <div class="loading">Carregando cardápio...</div>
+}
+else if (Erro is not null)
+{
+    <div class="alerta alerta-erro">@Erro</div>
+}
+else
+{
+    var sanduiches      = Itens.Where(i => i.Tipo == "Sanduiche").ToList();
+    var acompanhamentos = Itens.Where(i => i.Tipo == "Acompanhamento").ToList();
+    var bebidas         = Itens.Where(i => i.Tipo == "Bebida").ToList();
+
+    <div class="card">
+        <div class="card-title">Sanduíches</div>
+        <div class="cardapio-grid">
+            @foreach (var item in sanduiches)
+            {
+                <div class="cardapio-item">
+                    <div class="nome">@item.Nome</div>
+                    <div class="preco">R$ @item.Preco.ToString("F2")</div>
+                    <div class="tipo-badge">@item.Codigo</div>
+                </div>
+            }
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-title">Acompanhamentos</div>
+        <div class="cardapio-grid">
+            @foreach (var item in acompanhamentos)
+            {
+                <div class="cardapio-item">
+                    <div class="nome">@item.Nome</div>
+                    <div class="preco">R$ @item.Preco.ToString("F2")</div>
+                    <div class="tipo-badge">@item.Codigo</div>
+                </div>
+            }
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-title">Bebidas</div>
+        <div class="cardapio-grid">
+            @foreach (var item in bebidas)
+            {
+                <div class="cardapio-item">
+                    <div class="nome">@item.Nome</div>
+                    <div class="preco">R$ @item.Preco.ToString("F2")</div>
+                    <div class="tipo-badge">@item.Codigo</div>
+                </div>
+            }
+        </div>
+    </div>
+
+    <div class="card" style="background:#d3ddd3; border:1px solid green;">
+        <div class="card-title" style="color:#e65100">Regras descontos</div>
+        <table class="tabela">
+            <thead>
+                <tr>
+                    <th>Combinação</th>
+                    <th>Desconto</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Sanduíche + Batata + Refrigerante</td><td><span class="desconto-badge">20%</span></td></tr>
+                <tr><td>Sanduíche + Refrigerante</td><td><span class="desconto-badge">15%</span></td></tr>
+                <tr><td>Sanduíche + Batata</td><td><span class="desconto-badge">10%</span></td></tr>
+            </tbody>
+        </table>
+    </div>
+}

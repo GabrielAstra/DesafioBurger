@@ -1,0 +1,263 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Gabriel\\Desktop\\DesafioGoodBurguer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CA7B8CF4-2B1E-A327-D54F-ABC1C545E5DC}|src\\GoodHamburger.Web\\GoodHamburger.Web.csproj|c:\\users\\gabriel\\desktop\\desafiogoodburguer\\src\\goodhamburger.web\\components\\pages\\pedidos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA7B8CF4-2B1E-A327-D54F-ABC1C545E5DC}|src\\GoodHamburger.Web\\GoodHamburger.Web.csproj|solutionrelative:src\\goodhamburger.web\\components\\pages\\pedidos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA7B8CF4-2B1E-A327-D54F-ABC1C545E5DC}|src\\GoodHamburger.Web\\GoodHamburger.Web.csproj|c:\\users\\gabriel\\desktop\\desafiogoodburguer\\src\\goodhamburger.web\\components\\pages\\notfound.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA7B8CF4-2B1E-A327-D54F-ABC1C545E5DC}|src\\GoodHamburger.Web\\GoodHamburger.Web.csproj|solutionrelative:src\\goodhamburger.web\\components\\pages\\notfound.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA7B8CF4-2B1E-A327-D54F-ABC1C545E5DC}|src\\GoodHamburger.Web\\GoodHamburger.Web.csproj|c:\\users\\gabriel\\desktop\\desafiogoodburguer\\src\\goodhamburger.web\\components\\pages\\pedidos.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA7B8CF4-2B1E-A327-D54F-ABC1C545E5DC}|src\\GoodHamburger.Web\\GoodHamburger.Web.csproj|solutionrelative:src\\goodhamburger.web\\components\\pages\\pedidos.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA7B8CF4-2B1E-A327-D54F-ABC1C545E5DC}|src\\GoodHamburger.Web\\GoodHamburger.Web.csproj|c:\\users\\gabriel\\desktop\\desafiogoodburguer\\src\\goodhamburger.web\\components\\layout\\reconnectmodal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA7B8CF4-2B1E-A327-D54F-ABC1C545E5DC}|src\\GoodHamburger.Web\\GoodHamburger.Web.csproj|solutionrelative:src\\goodhamburger.web\\components\\layout\\reconnectmodal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA7B8CF4-2B1E-A327-D54F-ABC1C545E5DC}|src\\GoodHamburger.Web\\GoodHamburger.Web.csproj|c:\\users\\gabriel\\desktop\\desafiogoodburguer\\src\\goodhamburger.web\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA7B8CF4-2B1E-A327-D54F-ABC1C545E5DC}|src\\GoodHamburger.Web\\GoodHamburger.Web.csproj|solutionrelative:src\\goodhamburger.web\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAD5639C-4A37-C848-61BC-3741C1588FA5}|src\\GoodHamburger.API\\GoodHamburger.API.csproj|c:\\users\\gabriel\\desktop\\desafiogoodburguer\\src\\goodhamburger.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EAD5639C-4A37-C848-61BC-3741C1588FA5}|src\\GoodHamburger.API\\GoodHamburger.API.csproj|solutionrelative:src\\goodhamburger.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAD5639C-4A37-C848-61BC-3741C1588FA5}|src\\GoodHamburger.API\\GoodHamburger.API.csproj|c:\\users\\gabriel\\desktop\\desafiogoodburguer\\src\\goodhamburger.api\\middlewares\\tratadordeexcecoesmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAD5639C-4A37-C848-61BC-3741C1588FA5}|src\\GoodHamburger.API\\GoodHamburger.API.csproj|solutionrelative:src\\goodhamburger.api\\middlewares\\tratadordeexcecoesmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{557BA391-107A-3FF8-D0F3-0D60C53F2F8A}|src\\GoodHamburger.Infrastructure\\GoodHamburger.Infrastructure.csproj|c:\\users\\gabriel\\desktop\\desafiogoodburguer\\src\\goodhamburger.infrastructure\\repositorios\\cardapiorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{557BA391-107A-3FF8-D0F3-0D60C53F2F8A}|src\\GoodHamburger.Infrastructure\\GoodHamburger.Infrastructure.csproj|solutionrelative:src\\goodhamburger.infrastructure\\repositorios\\cardapiorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{557BA391-107A-3FF8-D0F3-0D60C53F2F8A}|src\\GoodHamburger.Infrastructure\\GoodHamburger.Infrastructure.csproj|c:\\users\\gabriel\\desktop\\desafiogoodburguer\\src\\goodhamburger.infrastructure\\repositorios\\pedidorepositorioef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{557BA391-107A-3FF8-D0F3-0D60C53F2F8A}|src\\GoodHamburger.Infrastructure\\GoodHamburger.Infrastructure.csproj|solutionrelative:src\\goodhamburger.infrastructure\\repositorios\\pedidorepositorioef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{557BA391-107A-3FF8-D0F3-0D60C53F2F8A}|src\\GoodHamburger.Infrastructure\\GoodHamburger.Infrastructure.csproj|c:\\users\\gabriel\\desktop\\desafiogoodburguer\\src\\goodhamburger.infrastructure\\contexto\\goodhamburgerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{557BA391-107A-3FF8-D0F3-0D60C53F2F8A}|src\\GoodHamburger.Infrastructure\\GoodHamburger.Infrastructure.csproj|solutionrelative:src\\goodhamburger.infrastructure\\contexto\\goodhamburgerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{557BA391-107A-3FF8-D0F3-0D60C53F2F8A}|src\\GoodHamburger.Infrastructure\\GoodHamburger.Infrastructure.csproj|c:\\users\\gabriel\\desktop\\desafiogoodburguer\\src\\goodhamburger.infrastructure\\configuracoes\\pedidoconfiguracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{557BA391-107A-3FF8-D0F3-0D60C53F2F8A}|src\\GoodHamburger.Infrastructure\\GoodHamburger.Infrastructure.csproj|solutionrelative:src\\goodhamburger.infrastructure\\configuracoes\\pedidoconfiguracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA7B8CF4-2B1E-A327-D54F-ABC1C545E5DC}|src\\GoodHamburger.Web\\GoodHamburger.Web.csproj|c:\\users\\gabriel\\desktop\\desafiogoodburguer\\src\\goodhamburger.web\\components\\layout\\reconnectmodal.razor.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{CA7B8CF4-2B1E-A327-D54F-ABC1C545E5DC}|src\\GoodHamburger.Web\\GoodHamburger.Web.csproj|solutionrelative:src\\goodhamburger.web\\components\\layout\\reconnectmodal.razor.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAD5639C-4A37-C848-61BC-3741C1588FA5}|src\\GoodHamburger.API\\GoodHamburger.API.csproj|c:\\users\\gabriel\\desktop\\desafiogoodburguer\\src\\goodhamburger.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAD5639C-4A37-C848-61BC-3741C1588FA5}|src\\GoodHamburger.API\\GoodHamburger.API.csproj|solutionrelative:src\\goodhamburger.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA7B8CF4-2B1E-A327-D54F-ABC1C545E5DC}|src\\GoodHamburger.Web\\GoodHamburger.Web.csproj|c:\\users\\gabriel\\desktop\\desafiogoodburguer\\src\\goodhamburger.web\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CA7B8CF4-2B1E-A327-D54F-ABC1C545E5DC}|src\\GoodHamburger.Web\\GoodHamburger.Web.csproj|solutionrelative:src\\goodhamburger.web\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7104F3-088E-AFFF-8331-D526C528F68C}|src\\GoodHamburger.Application\\GoodHamburger.Application.csproj|c:\\users\\gabriel\\desktop\\desafiogoodburguer\\src\\goodhamburger.application\\interfaces\\ipedidoservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD7104F3-088E-AFFF-8331-D526C528F68C}|src\\GoodHamburger.Application\\GoodHamburger.Application.csproj|solutionrelative:src\\goodhamburger.application\\interfaces\\ipedidoservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Pedidos.razor.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\DesafioGoodBurguer\\src\\GoodHamburger.Web\\Components\\Pages\\Pedidos.razor.cs",
+              "RelativeDocumentMoniker": "src\\GoodHamburger.Web\\Components\\Pages\\Pedidos.razor.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\DesafioGoodBurguer\\src\\GoodHamburger.Web\\Components\\Pages\\Pedidos.razor.cs",
+              "RelativeToolTip": "src\\GoodHamburger.Web\\Components\\Pages\\Pedidos.razor.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA6wBIAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T00:28:14.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Pedidos.razor",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\DesafioGoodBurguer\\src\\GoodHamburger.Web\\Components\\Pages\\Pedidos.razor",
+              "RelativeDocumentMoniker": "src\\GoodHamburger.Web\\Components\\Pages\\Pedidos.razor",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\DesafioGoodBurguer\\src\\GoodHamburger.Web\\Components\\Pages\\Pedidos.razor",
+              "RelativeToolTip": "src\\GoodHamburger.Web\\Components\\Pages\\Pedidos.razor",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-23T00:27:53.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NotFound.razor",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\DesafioGoodBurguer\\src\\GoodHamburger.Web\\Components\\Pages\\NotFound.razor",
+              "RelativeDocumentMoniker": "src\\GoodHamburger.Web\\Components\\Pages\\NotFound.razor",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\DesafioGoodBurguer\\src\\GoodHamburger.Web\\Components\\Pages\\NotFound.razor",
+              "RelativeToolTip": "src\\GoodHamburger.Web\\Components\\Pages\\NotFound.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-23T00:27:53.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\DesafioGoodBurguer\\src\\GoodHamburger.Web\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "src\\GoodHamburger.Web\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\DesafioGoodBurguer\\src\\GoodHamburger.Web\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "src\\GoodHamburger.Web\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-23T00:27:45.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\DesafioGoodBurguer\\src\\GoodHamburger.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "src\\GoodHamburger.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\DesafioGoodBurguer\\src\\GoodHamburger.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "src\\GoodHamburger.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-23T00:27:32.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TratadorDeExcecoesMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\DesafioGoodBurguer\\src\\GoodHamburger.API\\Middlewares\\TratadorDeExcecoesMiddleware.cs",
+              "RelativeDocumentMoniker": "src\\GoodHamburger.API\\Middlewares\\TratadorDeExcecoesMiddleware.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\DesafioGoodBurguer\\src\\GoodHamburger.API\\Middlewares\\TratadorDeExcecoesMiddleware.cs",
+              "RelativeToolTip": "src\\GoodHamburger.API\\Middlewares\\TratadorDeExcecoesMiddleware.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T00:26:25.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PedidoRepositorioEf.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\DesafioGoodBurguer\\src\\GoodHamburger.Infrastructure\\Repositorios\\PedidoRepositorioEf.cs",
+              "RelativeDocumentMoniker": "src\\GoodHamburger.Infrastructure\\Repositorios\\PedidoRepositorioEf.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\DesafioGoodBurguer\\src\\GoodHamburger.Infrastructure\\Repositorios\\PedidoRepositorioEf.cs",
+              "RelativeToolTip": "src\\GoodHamburger.Infrastructure\\Repositorios\\PedidoRepositorioEf.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T00:17:26.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CardapioRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\DesafioGoodBurguer\\src\\GoodHamburger.Infrastructure\\Repositorios\\CardapioRepositorio.cs",
+              "RelativeDocumentMoniker": "src\\GoodHamburger.Infrastructure\\Repositorios\\CardapioRepositorio.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\DesafioGoodBurguer\\src\\GoodHamburger.Infrastructure\\Repositorios\\CardapioRepositorio.cs",
+              "RelativeToolTip": "src\\GoodHamburger.Infrastructure\\Repositorios\\CardapioRepositorio.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwA0AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T00:17:22.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GoodHamburgerDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\DesafioGoodBurguer\\src\\GoodHamburger.Infrastructure\\Contexto\\GoodHamburgerDbContext.cs",
+              "RelativeDocumentMoniker": "src\\GoodHamburger.Infrastructure\\Contexto\\GoodHamburgerDbContext.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\DesafioGoodBurguer\\src\\GoodHamburger.Infrastructure\\Contexto\\GoodHamburgerDbContext.cs",
+              "RelativeToolTip": "src\\GoodHamburger.Infrastructure\\Contexto\\GoodHamburgerDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T00:17:16.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PedidoConfiguracao.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\DesafioGoodBurguer\\src\\GoodHamburger.Infrastructure\\Configuracoes\\PedidoConfiguracao.cs",
+              "RelativeDocumentMoniker": "src\\GoodHamburger.Infrastructure\\Configuracoes\\PedidoConfiguracao.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\DesafioGoodBurguer\\src\\GoodHamburger.Infrastructure\\Configuracoes\\PedidoConfiguracao.cs",
+              "RelativeToolTip": "src\\GoodHamburger.Infrastructure\\Configuracoes\\PedidoConfiguracao.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T00:17:02.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ReconnectModal.razor.js",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\DesafioGoodBurguer\\src\\GoodHamburger.Web\\Components\\Layout\\ReconnectModal.razor.js",
+              "RelativeDocumentMoniker": "src\\GoodHamburger.Web\\Components\\Layout\\ReconnectModal.razor.js",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\DesafioGoodBurguer\\src\\GoodHamburger.Web\\Components\\Layout\\ReconnectModal.razor.js",
+              "RelativeToolTip": "src\\GoodHamburger.Web\\Components\\Layout\\ReconnectModal.razor.js",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-23T00:16:24.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReconnectModal.razor",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\DesafioGoodBurguer\\src\\GoodHamburger.Web\\Components\\Layout\\ReconnectModal.razor",
+              "RelativeDocumentMoniker": "src\\GoodHamburger.Web\\Components\\Layout\\ReconnectModal.razor",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\DesafioGoodBurguer\\src\\GoodHamburger.Web\\Components\\Layout\\ReconnectModal.razor",
+              "RelativeToolTip": "src\\GoodHamburger.Web\\Components\\Layout\\ReconnectModal.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-23T00:16:03.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\DesafioGoodBurguer\\src\\GoodHamburger.API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\GoodHamburger.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\DesafioGoodBurguer\\src\\GoodHamburger.API\\Program.cs",
+              "RelativeToolTip": "src\\GoodHamburger.API\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAcwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T00:10:41.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\DesafioGoodBurguer\\src\\GoodHamburger.Web\\wwwroot\\app.css",
+              "RelativeDocumentMoniker": "src\\GoodHamburger.Web\\wwwroot\\app.css",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\DesafioGoodBurguer\\src\\GoodHamburger.Web\\wwwroot\\app.css",
+              "RelativeToolTip": "src\\GoodHamburger.Web\\wwwroot\\app.css",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAcwEsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-23T00:13:29.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IPedidoServico.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\DesafioGoodBurguer\\src\\GoodHamburger.Application\\Interfaces\\IPedidoServico.cs",
+              "RelativeDocumentMoniker": "src\\GoodHamburger.Application\\Interfaces\\IPedidoServico.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\DesafioGoodBurguer\\src\\GoodHamburger.Application\\Interfaces\\IPedidoServico.cs",
+              "RelativeToolTip": "src\\GoodHamburger.Application\\Interfaces\\IPedidoServico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T23:41:59.576Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

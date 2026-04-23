@@ -1,0 +1,161 @@
+@page "/pedidos"
+@rendermode InteractiveServer
+@inherits PedidosBase
+
+<PageTitle>Pedidos — Good Hamburger</PageTitle>
+
+<div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1.5rem">
+    <h2>Pedidos</h2>
+    <button class="btn btn-primary" @onclick="AbrirFormularioNovo">+ Novo Pedido</button>
+</div>
+
+@if (MensagemSucesso is not null)
+{
+    <div class="alerta alerta-sucesso">@MensagemSucesso</div>
+}
+
+@if (MensagemErro is not null)
+{
+    <div class="alerta alerta-erro">@MensagemErro</div>
+}
+
+@if (FormularioAberto)
+{
+    <div class="card">
+        <div class="card-title">@(PedidoEditando is null ? "Novo Pedido" : "Editar Pedido")</div>
+
+        <p style="font-size:.85rem; color:#666; margin-bottom:1rem">
+            Selecione os itens (1 sanduíche obrigatório, 1 batata e 1 refrigerante opcionais):
+        </p>
+
+        <div class="cardapio-grid" style="margin-bottom:1rem">
+            @foreach (var item in Cardapio)
+            {
+                var selecionado  = CodigosSelecionados.Contains(item.Codigo);
+                var desabilitado = !selecionado && ItemDesabilitado(item);
+
+                <div class="cardapio-item @(selecionado ? "selecionado" : "") @(desabilitado ? "desabilitado" : "")"
+                     @onclick="() => ToggleItem(item)">
+                    <div class="nome">@item.Nome</div>
+                    <div class="preco">R$ @item.Preco.ToString("F2")</div>
+                </div>
+            }
+        </div>
+
+        @if (CodigosSelecionados.Count > 0)
+        {
+            <div class="resumo-pedido">
+                <div class="resumo-linha">
+                    <span>Itens selecionados</span>
+                    <div class="chips">
+                        @foreach (var cod in CodigosSelecionados)
+                        {
+                            var nome = Cardapio.FirstOrDefault(i => i.Codigo == cod)?.Nome ?? cod;
+                            <span class="chip">@nome</span>
+                        }
+                    </div>
+                </div>
+                <div class="resumo-linha">
+                    <span>Subtotal</span>
+                    <span>R$ @Subtotal.ToString("F2")</span>
+                </div>
+                @if (PercentualDesconto > 0)
+                {
+                    <div class="resumo-linha">
+                        <span>Desconto <span class="desconto-badge">@((PercentualDesconto * 100).ToString("F0"))%</span></span>
+                        <span style="color:#27ae60">- R$ @Desconto.ToString("F2")</span>
+                    </div>
+                }
+                <div class="resumo-linha total">
+                    <span>Total</span>
+                    <span>R$ @Total.ToString("F2")</span>
+                </div>
+            </div>
+        }
+
+        <div style="display:flex; gap:.75rem; margin-top:1rem">
+            <button class="btn btn-primary" @onclick="SalvarPedido" disabled="@(Salvando || !PodeSalvar)">
+                @(Salvando ? "Salvando..." : "Salvar Pedido")
+            </button>
+            <button class="btn btn-secondary" @onclick="FecharFormulario">Cancelar</button>
+        </div>
+    </div>
+}
+
+@if (Carregando)
+{
+    <div class="loading">Carregando pedidos...</div>
+}
+else if (Pedidos.Count == 0 && !FormularioAberto)
+{
+    <div class="card" style="text-align:center; color:#999; padding:3rem">
+        Nenhum pedido ainda. Clique em <strong>+ Novo Pedido</strong> para começar.
+    </div>
+}
+else if (Pedidos.Count > 0)
+{
+    <div class="card" style="padding:0; overflow:hidden">
+        <table class="tabela">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Itens</th>
+                    <th>Subtotal</th>
+                    <th>Desconto</th>
+                    <th>Total</th>
+                    <th>Criado em</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var pedido in Pedidos)
+                {
+                    <tr>
+                        <td style="font-size:.75rem; color:#999">@pedido.Id.ToString()[..8]…</td>
+                        <td>
+                            <div class="chips">
+                                @foreach (var item in pedido.Itens)
+                                {
+                                    <span class="chip">@item.Nome</span>
+                                }
+                            </div>
+                        </td>
+                        <td>R$ @pedido.Subtotal.ToString("F2")</td>
+                        <td>
+                            @if (pedido.PercentualDesconto > 0)
+                            {
+                                <span class="desconto-badge">@((pedido.PercentualDesconto * 100).ToString("F0"))%</span>
+                            }
+                            else
+                            {
+                                <span style="color:#ccc">—</span>
+                            }
+                        </td>
+                        <td style="font-weight:700; color:#c0392b">R$ @pedido.Total.ToString("F2")</td>
+                        <td style="font-size:.8rem; color:#999">@pedido.CriadoEm.ToLocalTime().ToString("dd/MM HH:mm")</td>
+                        <td>
+                            <div style="display:flex; gap:.4rem">
+                                <button class="btn btn-secondary btn-sm" @onclick="() => AbrirFormularioEdicao(pedido)">Editar</button>
+                                <button class="btn btn-danger btn-sm" @onclick="() => ConfirmarRemocao(pedido.Id)">Remover</button>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+
+@if (IdParaRemover.HasValue)
+{
+    <div style="position:fixed;inset:0;background:rgba(0,0,0,.4);display:flex;align-items:center;justify-content:center;z-index:500">
+        <div class="card" style="max-width:380px;width:90%;margin:0">
+            <div class="card-title">Confirmar remoção</div>
+            <p style="margin-bottom:1.2rem">Tem certeza que deseja remover este pedido?</p>
+            <div style="display:flex;gap:.75rem">
+                <button class="btn btn-danger" @onclick="ExecutarRemocao">Remover</button>
+                <button class="btn btn-secondary" @onclick="CancelarRemocao">Cancelar</button>
+            </div>
+        </div>
+    </div>
+}
